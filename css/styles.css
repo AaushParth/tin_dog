@@ -1,0 +1,168 @@
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 5rem;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 5% 15%;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubantu";
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+/* Download button */
+.download button {
+  margin: 15% 3% 5% 0;
+}
+
+/* Title image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+/* Features section */
+#features {
+  padding: 10% 15%;
+  background-color: #fff;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 2rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial section */
+#testimonials {
+  padding: 10% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+/* cta section */
+
+#cta {
+  text-align: center;
+  font-weight: bold;
+  background-color: #ff4c68;
+  padding: 10% 15%;
+  color: white;
+}
+
+.cta-heading {
+  font-size: 3.5rem;
+  line-height: 5rem;
+}
+
+/* download button 2 */
+
+.download button 2 {
+  margin: 25% 10% 5% 0;
+}
+
+#footer {
+  padding: 10% 15%;
+  text-align: center;
+}
+
+.social-icons {
+  margin: 20px 10px;
+}
+
+.social-icons:hover {
+  color: #ff4c68;
+}
